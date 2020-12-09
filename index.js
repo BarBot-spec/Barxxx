@@ -12,7 +12,7 @@ const A187 = 'V-BOT'; // JANGAN UBAH-UBAH INFO!!!
 const instagram = 'https://instagram.com/barxnl'; // JANGAN UBAH-UBAH INFO!!!
 const nomer = 'Wa.me/+6282198571732'; // JANGAN UBAH-UBAH INFO!!!
 const aktif = 'Tergantung jaringan'; // JANGAN UBAH-UBAH INFO!!!
-const groupwhatsapp = 'https://chat.whatsapp.com/GU6NsgZvfgw37vrjIxUPhP'; // JANGAN UBAH-UBAH INFO!!!
+const groupwhatsapp = 'https://chat.whatsapp.com/Cu72BHtozNw7taFgW2DDVm' // JANGAN UBAH-UBAH INFO!!
 const youtube = 'https://www.youtube.com/channel/UCGYLWtyT9IADYNUiK0uZiGg'; // JANGAN UBAH-UBAH INFO!!!
 //A187ID
 const qrcode = require("qrcode-terminal");
@@ -153,29 +153,29 @@ conn.sendMessage(id, 'Lu Asw' ,MessageType.text);
 else if (text == '#owner'){
 conn.sendMessage(id, ' *Owner Akbar wa.me/+6282198571732* ' ,MessageType.text);
 }
-else if (text == '#help'){
-conn.sendMessage(id, ' *Menampilkan Pilihan Menu!!!* ' ,MessageType.text);
+else if (text == ':v'){
+conn.sendMessage(id, ' *:v* ' ,MessageType.text);
 }
-else if (text == '#menu1'){
-conn.sendMessage(id, ' *Menampilkan Fitur Menu1!!!* ' ,MessageType.text);
+else if (text == ':V'){
+conn.sendMessage(id, ' *:v* ' ,MessageType.text);
 }
-else if (text == '#menu2'){
-conn.sendMessage(id, ' *Menampilkan Fitur Menu2!!!* ' ,MessageType.text);
+else if (text == 'Ajg'){
+conn.sendMessage(id, ' *Ajg>Astaghfirullah jangan gitu* ' ,MessageType.text);
 }
-else if (text == '#menu3'){
-conn.sendMessage(id, ' *Menampilkan Fitur Menu3!!!* ' ,MessageType.text);
+else if (text == 'Ngakak'){
+conn.sendMessage(id, ' *Iya kak ngakak banget, Hahaha!!* ' ,MessageType.text);
 }
-else if (text == '#menu4'){
-conn.sendMessage(id, ' *Menampilkan Fitur Menu4!!!* ' ,MessageType.text);
+else if (text == 'Ngakak ajg'){
+conn.sendMessage(id, ' *Iya ajg ngakak bet Kontol, hahahaha!!* ' ,MessageType.text);
 }
-else if (text == '#info'){
-conn.sendMessage(id, ' *Menampilkan Info!!!* ' ,MessageType.text);
+else if (text == 'Wkwk'){
+conn.sendMessage(id, ' *Wkwkwk lucu yah kak!!* ' ,MessageType.text);
 }
 else if (text == '#donasi'){
-conn.sendMessage(id, ' *Menampilkan Donasi!!!* ' ,MessageType.text);
+conn.sendMessage(id, ' *Kenapa kak? mau donasi?* ' ,MessageType.text);
 }
 else if (text == '#creator'){
-conn.sendMessage(id, ' *Creator AR15BOT wa.me/+6285722553839* ' ,MessageType.text);
+conn.sendMessage(id, ' *Creator Akbar wa.me/+6282198571732* ' ,MessageType.text);
 }
 else if (text == 'Pagi'){
 conn.sendMessage(id, ' _Pagi juga, Iyah aku disini kak...ada yang bisa kami bantu? Ketik *#help* untuk melihat fitur bot kami🙏_ ' ,MessageType.text);
@@ -460,7 +460,7 @@ conn.sendMessage(id, '[WAIT] Searching...❗', MessageType.text)
     conn.sendMessage(id, hasil ,MessageType.text);
 })
 }
-if (text.includes("!quotes1")){
+if (text.includes("!quotes")){
 const teks = text.replace(/!quotes1 /, "")
 axios.get(`https://arugaz.herokuapp.com/api/randomquotes`).then((res) => {
 conn.sendMessage(id, '[WAIT] Searching...❗', MessageType.text)
@@ -932,22 +932,22 @@ else if (text == '!foto'){
 conn.sendMessage(id, 'kirim !foto cewek/cowok\n\nContoh: !foto cewek' ,MessageType.text);
 }
 else if (text == '#help'){
-conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾AR15BOT👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/_sadboy.ig_' ,MessageType.text);
+conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *V-BOT* , Follow Instagram Mimin Yah😻 : https://instagram.com/_barxnl' ,MessageType.text);
 }
 else if (text == '#menu1'){
-conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾AR15BOT👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/_sadboy.ig_' ,MessageType.text);
+conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *V-BOT* , Follow Instagram Mimin Yah😻 : https://instagram.com/barxnl' ,MessageType.text);
 }
 else if (text == '#menu'){
-conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾AR15BOT👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/_sadboy.ig_' ,MessageType.text);
+conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *V-BOT* , Follow Instagram Mimin Yah😻 : https://instagram.com/barxnl_' ,MessageType.text);
 }
 else if (text == '#menu2'){
-conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾AR15BOT👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/_sadboy.ig_' ,MessageType.text);
+conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *V-BOT* , Follow Instagram Mimin Yah😻 : https://instagram.com/barxnl_' ,MessageType.text);
 }
 else if (text == '#menu3'){
-conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾AR15BOT👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/_sadboy.ig_' ,MessageType.text);
+conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *V-BOT* , Follow Instagram Mimin Yah😻 : https://instagram.com/barxnl_' ,MessageType.text);
 }
 else if (text == '#menu4'){
-conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾AR15BOT👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/_sadboy.ig_' ,MessageType.text);
+conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *V-BOT* , Follow Instagram Mimin Yah😻 : https://instagram.com/barxnl_' ,MessageType.text);
 }
    if (messageType == 'imageMessage')
    {
@@ -989,7 +989,7 @@ conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾AR15BOT👾* , 
 
    }
  
-   if (text.includes("!quotes"))
+   if (text.includes("!katabijak"))
    {
       var url = 'https://jagokata.com/kata-bijak/acak.html'
       axios.get(url)
@@ -1101,7 +1101,7 @@ if (text.includes("!pokemon"))
     });
     }
 
-   else if (text.includes("!nama")) 
+   else if (text.includes("!Type error")) 
   {
     const cheerio = require('cheerio');
     const request = require('request');
@@ -1132,7 +1132,7 @@ if (text.includes("!pokemon"))
  MessageType.text);
   });
   }
-  else if (text.includes("!pasangan ")) {
+  else if (text.includes("!error broo ")) {
     const request = require('request');
     var gh = text.split("!pasangan ")[1];
     var namamu = gh.split("&")[0];
