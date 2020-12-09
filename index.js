@@ -522,7 +522,7 @@ if (text.includes("!indohot")){
 const teks = text.replace(/!indohot /, "")
 axios.get(`https://arugaz.herokuapp.com/api/indohot`).then((res) => {
 	conn.sendMessage(id, '[WAIT] Proses...❗', MessageType.text)
-    let hasil = ` *Tobat Bosq* \n\n *Judul* _${res.data.result.judul}_ \n\n *Status* _${res.data.result.genre}_ \n\n *Durasi* _${res.data.result.durasi}_ \n\n *Link Bosq* _${res.data.result.url}_ `;
+    let hasil = ` *Dosa tanggung sendiri, Owner gak ikutan!!* \n\n *Judul* _${res.data.result.judul}_ \n\n *Status* _${res.data.result.genre}_ \n\n *Durasi* _${res.data.result.durasi}_ \n\n *Link Bosq* _${res.data.result.url}_ `;
     conn.sendMessage(id, hasil ,MessageType.text);
 })
 }
